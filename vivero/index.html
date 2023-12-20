@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Helena's Garden</title>
+    <link rel="icon" type="image/png" href="/icons8-plant-32.png">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a href="#" class="nav-link"><img src="data:image/png;base64,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" style="height: 40px; width: 40px; margin-top: -23px; margin-left: 20px; margin-right: 100px;">Inicio</a>
+    </div>
+    <div class="navbar-center">
+      <a href="#" class="nav-link">Historia</a>
+      <div class="dropdown">
+        <button class="dropdown-toggle" type="button" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Productos 
+        </button>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Plantas</a>
+          <a class="dropdown-item" href="#">Sustratos</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Macetas</a>
+          <a class="dropdown-item" href="#">Tips y Cuidados</a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-right">
+      <form class="search-form">
+        <input class="search-input" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="search-button" type="submit"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABNklEQVR4nN3UvSuFYRjH8U+IInlJGSgMyChCycAqg6wSg5dR/APCrmSQzCYmi8lGOJKSDKQkL2XiH6BTNyk553keTsp3/j3X936u67pv/phajGEO85hC028UbsE2brCKWUxjCRfYR3fS4kO4xSjyv8n04wozcYv34RqNEbJVOMZ41OLFoSVtMQ5UgzvURQmne7wmPrNhTlnZQ1cCQRUeMszrg2fkScY56jMFSnEvObvoyBTIC3+QlFM0ZwudhQsWlxI8oShbcBELCQTD2IoSrA5zSO92nNNfojPqBxM4CkPPRgE2sSwmc2EerRkyDWFzXpFCRVzJYHjMtjGJXvRgBBt4DA9d6pOkPK6kEANYCaIdrAdJuvfCyX8kiUIZDoPkBJVyJDn4F5LysOYvaM+F4F2Ss+JfeAMttT6msIWqBwAAAABJRU5ErkJggg==" style="height: 24px; width: 24px; "></button>
+      </form>
+    </div>
+  </nav>
+
+  <head>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img class="imagen"src="https://ichef.bbci.co.uk/news/640/cpsprodpb/121DB/production/_109730247_gettyimages-1094263056-1.jpg">
+        <div class="text">Caption Text</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/121DB/production/_109730247_gettyimages-1094263056-1.jpg">
+        <div class="text">Caption Two</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/121DB/production/_109730247_gettyimages-1094263056-1.jpg">
+        <div class="text">Caption Three</div>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAABxklEQVR4nO3av0scURAH8DEYArHQJpFAuDe3d9glBA7izdzCtfcHWFpbpI9gCrURbBKSOhgkraKQQt03JweWop3YiZWkiYVoYRNPLDZwd7ucKcLFN/OB1+939/2eBTDGGGOMMcaYf6DYpCls8ixo5KTacELXKNx2wsugNTz+abQEGkRSi1HoqjM8/y4mPA2hK+wSO0+XHeE936DQDIQOk3jSCV90h3dC7yB0LuE3KHze1e3v2nsIXSTVV+j5V3d4J7U5CF1R4gn0/LPny3ueh9CVdqplFDrrDU8fIXSR1AoofNrb7fkzhK7cevsSPZ30hqev0IYhCFmU0HMUPs6Y7b/BAjyCkJW34mfo6Sij238PPrxr1cfQ82HGhLcOrfowhCySyqjzvJ+x1G1WDiqPIWTjyesR52kvY8w/yPZX4V/8qDxFT61BP7S9ABlQDwDtQ+Aek+B2eavxBDRwecug8Ebwy2DfjZDnNTUvIcrZCjtPq8HvBvsdhtDzSvCHob7HYc9fQItS/oXIJ9CimHMl5oQWQYso71LU8wfQwuVdi2sqjKLmwkhKdWkspbo4mlJdHk+p/kEipfoXGWOMMcYYY4wxxsD/6BY3uDe+nVJ5hAAAAABJRU5ErkJggg==" style="height: 30%; width: 50%"></a>
+      <a class="next" onclick="plusSlides(1)"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAABgklEQVR4nO3azSpFURQH8OUpRN2z1mYkMwlrn0immGEqZayUJ1DKXClPorvWvc8hZhgxIIV8X126hXMnZED/9as9PXX+Z++1vw5RCCGEEEIIIfxhyXUumS4S6suz6524PomVS4QkmS6y5Qfx3Go39nyf6uU8oUgNXWDTx04AnRAK11lCIV4ui+fnjyGI5duirjOEgk1XKiF4vmEvpwlFsrwqll8+h6DXUtcpQiGua196QbsmXKXGxBihYM/rX0MQ08sBy6OEQkw3KiG4XhSNiRFCwZY3q8NBz2vNcphQiOtWl5pwxjY+RCjY83YlBMuntWYeJAgt6mHXnS7D4aSoTyaC0KIecd3tEsKxNJUJpidY3utSE45qlvt/9EypTDX/s7HpYbE/2QcbgLy3g9QY740AvkPQhwChF8F/A3oabIEvhBh5KSzImyFG3g4L8oEIIx+JCfKhaEI+FmfkixFBvhpL6Jej6S0A4OvxtvbXhv1BogP6F5kQQgghhBBCCCHQb3oFPX004/pb1r8AAAAASUVORK5CYII=" style="height: 30%; width: 50%"></a>
+    </div>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    
+  </head>
+  
+   
+   <section class="grid">
+    <div class="card">
+      <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1631188850-41eMJ5wRzKL._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*" alt="Imagen de la tarjeta">
+      <div class="card-body">
+        <p class="description">Breve descripción de la tarjeta.</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1631188850-41eMJ5wRzKL._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*" alt="Imagen de la tarjeta">
+      <div class="card-body">
+        <p class="description">Breve descripción de la tarjeta.</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1631188850-41eMJ5wRzKL._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*" alt="Imagen de la tarjeta" alt="Imagen de la tarjeta">
+      <div class="card-body">
+        <p class="description">Breve descripción de la tarjeta.</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1631188850-41eMJ5wRzKL._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*" alt="Imagen de la tarjeta" alt="Imagen de la tarjeta">
+      <div class="card-body">
+        <p class="description">Breve descripción de la tarjeta.</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+    </div> 
+    <div class="card">
+      <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1631188850-41eMJ5wRzKL._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*" alt="Imagen de la tarjeta" alt="Imagen de la tarjeta">
+      <div class="card-body">
+        <p class="description">Breve descripción de la tarjeta.</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1631188850-41eMJ5wRzKL._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*" alt="Imagen de la tarjeta" alt="Imagen de la tarjeta">
+      <div class="card-body">
+        <p class="description">Breve descripción de la tarjeta.</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+    </div>
+   </section>
+   <section class="contain">
+    <div class="contain">
+      <button class="center-button">Ver todos los productos</button>
+    </div>
+   </section>
+   <section class="containe">
+    <div class="containe">
+      <p class="center-text">RECIBÍ EL PEDIDO EN TU HOGAR O RETIRALO POR NUESTRO LOCAL DE PALERMO<br>
+        Te contactaremos por WhatsApp desde el sector de ENVÍOS para coordinar el pedido <br>
+        Tiempo de Entrega: 1 a 3 días hábiles - Atención Virtual: Lunes a Sábado de 10 a 18 hs.
+      </p>
+    </div>
+  
+   </section>   
+   <section class="grids">
+    <div class="cards">
+      <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1631188850-41eMJ5wRzKL._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*" alt="Imagen de la tarjeta" alt="Imagen de la tarjeta">
+      <div class="cards-body">
+        <p class="descriptions">Breve descripción de la tarjeta.</p>
+        <button class="btn-compra">Comprar</button>
+      </div>
+    </div> 
+    <div class="cards">
+      <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1631188850-41eMJ5wRzKL._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*" alt="Imagen de la tarjeta" alt="Imagen de la tarjeta">
+      <div class="cards-body">
+        <p class="descriptions">Breve descripción de la tarjeta.</p>
+        <button class="btn-compra">Comprar</button>
+      </div>
+    </div>
+    <div class="cards">
+      <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1631188850-41eMJ5wRzKL._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*" alt="Imagen de la tarjeta" alt="Imagen de la tarjeta">
+      <div class="cards-body">
+        <p class="descriptions">Breve descripción de la tarjeta.</p>
+        <button class="btn-compra">Comprar</button>
+      </div>
+    </div>
+   </section>       
+   
+   <section class="siguenos">
+    <button class="follow-button">Seguinos en @helenasgarden<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADK0lEQVR4nO2ZO09UQRTHfwUqRB67lksrgrEQBTsfsZOYqHwCQlS+gApS+2iNhFKDX0AxsZLFZ6f2Itio2AoKCBWuOcn/JhMDu3Mfu3NN9p9McrP3nHPn7Jz3QBNN5AK9wAQwDywAG0Alo2WyTGYZGAcO1UOBQeBFhpv2XfPAQBYK7AGmgT8S/AN4AFzQ6ewnO5gsk3kReKhvVfTtKaAlqeAi8FLCfgO3gE4ah07gNrDpnE4hyUlEpvRdphUKR4Ev2ssbYG8c5mkxfgNKhEcJWNae7vsyDcouzZyOkR8cl5lt67kmIpMyn8gb7mhvFqKroteJTo107Ajn5ZNmRkM7vO8CVrTHnmqCJkRk4S8Elp0cYv65E2b0/kY1QWURWSzPqyLDej9XTdCiiNKUB5Z/RoGnwCeVHht6ntU7o9kJQ1LGlDhXw/xN3q5YE1FHAgXagEngp0fpsQrcBFoTfKdDMmyvuyL6UJI4/8Hhfw5cccoYW336bc6he58wT1Vq7TOJIiWZQnTcJz14TjlmnCTpVrJWpM05iVcxayHzk9fifRfTzCpZKzIp+oUkBZ2UiU7GQn8QRYqOY/uY02444wSAYghFRh3HTosof42EUGRWtJdJj6uS9TiEIpFtW4hNiz6fJFcvRdZF2056tEvW+v+uSKdk/fKkb5pWNWe3siMtxkI6+6hPOe2J+ZDht6gkZvSnSY6zTkIshC5RFmNkZRfGs+TT8dVbkVaV4hUVgHGUOQC8zUvR+G8Zv6TaycecPuepjI9Q0r8a8ZcViQ4rz7Trecxx7Ogk6tJYraVodVtViq96trp2dbCvXq3uYgbDh4LC6BP1KetaC/ptJGHvEmv4EHoc5INhn/ZhPPCAzgePtMdreR6Z1oL3yBQnqtglS95wN05XOqBrhU3f8X2DMAhs6Vqh35dpSprb+LKb8Oh25sL34jC2OCZmY/4ThEM/8NVJtLEvRQuOMpu6ZDFnaxS65BNbTruQOP+06M5uW8JWdD9xSQODLNrcCCarT3lixolO2zKnxNfTLo4AzzxKj6xXuV4Bp0d9w5xTfmS1aZP1UaH1OnCwHgo00QTx8Bf0wax6bwlEYQAAAABJRU5ErkJggg==" style="height: 30px; width: 30px; margin-left: 2%;"></button>
+   </section>
+
+   <section class="gri">
+      <div class="cardss">
+        <div class="cardss-body">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAACXBIWXMAAAsTAAALEwEAmpwYAAADO0lEQVR4nNWXWUhVURSGv2s2EDSITU/R8BCFUd0yKiyQoKKioLDBiBDESI0gKAh6yTQrmqQwocEmhKAeGjEI8sEiioJAE4yysgh7KBvMBodY8N+4nc65Q+f64A8H7zl7r73XXvtf/1pCL0Y/IAMoBMqAk3rsd4HG+vakA0HgLPAF6Aa+Ac+BWj32u11jn4EzwLREOjAOqAK6gDpgl5xyQwCYrjn1QCdwARjj14nVQBvwEsgDkuKwNaeygGeK1Pr/cSAAlCgKR3zeuXHqqNYq1toxowT4CeSSOORpTXMmJmTJ+40kHjlaOzsWYrbrOtxCbOMjfDpzTBkXkcBVIpeTEzOBt0rNDmClD0fsQC+A814TLCW7lCnhSAXeALeBdOAS0BAv6RzIVmpPdRs0sapz2WAn0AIMDYuORWa+D0dsj6dApVu4TDFNiJy45WLwALiMP+wGPjlpkKFTBl0MHrqQdwfw0acjM7TnnPCPhWJywMXgovgRwmjgnYjtBwFlaH74x8MqWm7YIGKN1/tpkTcF/7DsORj+4ZQqqBsGAE3ANb3nyrG5+Eet9v6DE0BNBIOFSu0chfQm8B6YkGhH9gNPohiV6U6NXINE4tcq+yEkqUl6DGzVvLiuZpPSt08Eo2SgWpGYDAxTFH8ApXrfq/dzIv8HSUJKrGRNVyqlRTnBYOCuUneenNsOtGrjblVZw3BVcevWbkRI39nO09pJTR+iYSBwVacp0MmGAJuBtS7zK4B7HoLWqr3/Qrnau1hqSLJ4ZdlzH1jk0b1ZVJqdPNDcBidRQ5ikhVcQO2YBdxTiV8AeYLGUepsqtjky0mG3TntN8Vq4GrhO/AhKFJvlVKjLr3TpX/pLl6zIeqIROIQ/pKrpsQ3dUK6G3EqFK8bqJAvoOeRLGNdEm9QmSe8JmFb9AoqiTbwi6U407IqOKxJF0bIy1BhtcXwfpdbxALA8zvYwSdnRpEivisUoU/zIlChVKM+7lWaN+lsv0UvzKAcBKWax7DuVHZ7EdKI0LO06gEfKnmVhdWKiGN+ieV9VKGtURe3k3zXWqr7FUye8sATYByyVXEeCRcJqk/0DZupqLYQ9pp5GSKsd/8h2r8Fv6Z3QeurTrLoAAAAASUVORK5CYII=" style="height: 31px; width: 31px;">
+          <h2 class="descriptionss">ASESORAMIENTO Y VENTAS</h2>
+          <p class="descriptionss">Con nuestra atención personalizada vas a poder encontrar la mejor planta para tu hogar</p>
+        </div>
+        <div class="separator2"></div>
+      </div> 
+      <div class="cardss">
+        <div class="cardss-body">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACRklEQVR4nO2YO0sdQRiGH1GPQtQjksJYhXTpE4hVwE6IaKws/APxQpr0sdNTJ4VC2hTBSv9CiDfMpfGSIkUSNShoYRQlKCcMfAuDObM7M3thA/PCNLPffM++55vbHggKCgoKCgoKCgqyUAcwDxwD9QLaCbAA3CJjLRRk4GZ7nbWRY0n8gGL0SHhHWSeuSytSuTDrwYi/QkXKOrV+Wexuh8A74L5t0iLls12fAUM2SYtUxBy3iL0HLEn8BdCflLRIuTKbgTcy5jvQk0XSLGRiVoAacJAwzZaBJtukecrErDmsmRe2SfOUibkv/U9ixg4C18Cfm+ulTEbqlu8yK3E/gNuug8tkpAV4L7GLroPLZETpLnAp8Y//ZyNoW/Lbshn5Kf1jlnkGJP5bXNI8ZWLOeF5frspmpEXMRJVxaaUy4qNgJAuFiqSdWu3Ac2ADOJe2DkwDbWngCZwzYBWYkptxKiN9wJeY3eIzcCcDI0mcTxLjZaRNS74FDAOd0kaAHQ1SSWHElvOxAcfKyLQ82waqDZ5XNchECiMunElTroOY7+cVeaZ+IZOeSswHSxMPNfiQB2dV6xuXvn3brzJVYpO6PK8VvpzTBuNmo/lZ077OXAFVx5dVf5q/Al4Cex6cUy1evfOczfqMSq4WnEmjjlMrLWfFBzAlg3cMi7Ab+Coxz3wAHpwJH0BFzgmVYFcWXJe0US15o20xD84m0OoL6dMgpoOqN4UJW86mx8H7j9SGoMq/JteG6Oqg9vQ0lUji/Ja1p6ZTbCX+Anf7zx/UhtX/AAAAAElFTkSuQmCC" style="height: 30px; width: 30px;">
+          <h2 class="descriptionss2">ENVIOS A DOMICILIO</h2>
+          <p class="descriptionss2">Te contactaremos por WhatsApp para coordinar la entrega de tu pedido</p>
+        </div>
+        <div class="separator"></div>
+      </div>
+      <div class="cardss1">
+        <div class="cardss1-body">
+          <h2 class="descriptionss1">POST VENTA</h2>
+          <p class="descriptionss">Estamos para resolver de la mejor manera posible todos los inconvenientes que puedas tener con tus plantas</h3>
+      </div>
+   </section>
+   <footer class="footer">
+    <div class="footer-column">
+      <h3>Contactanos</h3>
+      <ul>
+        <li> n tel</li>
+        <li>email</li>
+        <li>Direccion</li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Redes sociales</h3>
+      <ul class="social-icons">
+        <li><a href="#"><i class="fab fa-facebook-f"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAACXBIWXMAAAsTAAALEwEAmpwYAAACFUlEQVR4nO2Xv2sUURDHF6NE7AJWWigxeHczu1ik0VjYCEmrcIKgrSJWNhZWFv4LFoKgpdxfIAjaSTCb7Mw7sDjBVOF2ZoMGfzWCK7NhvTPuJhh8a3MDU7x9b9/7MDPvxzcIJraH5XlwwGVh26Wdi148C9u2xq4QfcFTJBCzYu7TSWDFpdFsbSRIICYFdml4zm1FMz68L7hACs5gKiNjIWPF3CACz2YwxVpZ2P6jkwQXrTPeOH3UN4itsZ0iXKwAgaXmQWDJG8hgMDedDFsnV7PWsTifP9Q4iNuKZkjwESt8He0Q+MYCL1nhaiMgg8Hc9PaOwyEL3LaCt/y7DG6w4BoJvG0EhBXusMD3ZNjBinkfNAiCyyzwrGwnm2eOk8JDUnzBCu8bAyHBTyx4dwQGzwsAxSdF3QjebwrkBwleHwMRS1fd+H8K0su7U06ha27/JWl4bQSCGSk+LfuTNLzkDSTemD8yfpHtBPntklMg7yAkeHm3caTwmgUe/1eQXt6dYoUvJHjLP4jiZxL4kGjnyq+5FN/ZNxb4WKQnbZ/1BvIqv3DQTs7i9Kwu1l7Zv75+4rA3kHGrLtaGtu+4TUB22iQiniOy/8cz7xuk4vFcyom+4IJvkETwfHHQZVGrTmCtmPixgX8jmgqQDG6WbVLcZMV7VWNtbluDBd7USk+XRrMG41tyGkSt5GxKhHMWtfYU4cHEguAnluka1E6cODIAAAAASUVORK5CYII="style="height: 30px; width: 30px;"  ></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#" ><i class="fab fa-instagram"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEUUlEQVR4nO1ay24URxStRUKIwnuJF2wcxn1rjAlOJBYBxA6EhJMvQCghP8Aza3C2EVGWoOQHQpBYgQmQLJABm65qrNgxC4JBwrd6sB3MY0WMTnfVYCHPTHdPz/QgzZFaGnXX69Z9nao7QnTRRfHQYX8pYDqpjLyqmCa1oefayKV8HnqOMZWRI5rlCWX6tuYuQBCWP9cs/8hv0ckeZeTVIOwfbFqAsaXBD5WRPyuW/0cDs3yqmc7pkA5CO+rJtk9y2SkhBMbSYX9Jz3pDmul8NFc8J+b+6frSng8yDRws9G/UTNes2l8optOjld51ok0YrfSuU0xntKGXTjv+/MCG1JqomhLTY5iWKAj3WA5oI/+12vlzYolWJe4Mc4o70sx4WNosCsZ4WNqsmB7ZjT2bqBN2P7ZLeqGM95noEGjTtwNmpli+xu/GHaxJwSdEh0ExDVt/GanbMIoaNjq107EdfFM+AJ+Mzcjb/+73sbnB9YppDmu8a7xPaw6EZGft8LwoAMr5gfXPFdsY+Uu8Rnm89kDIqmg06w21csHNCOLPlr+OzYuu1BxIs/wnbpSdHiD/+EyHlZEXFdNUTGMi+jGljPwd39BmxfmNtx/CQAjFtK+++dNUzUUols/QaDIsrU0rwM2ZnR8rpu8100JD+sE0r5hOPXiwZXXaeSbD0lrrx89qNnITZYzzd5YRwMvayG8djcEThOU+vINJLBPodpY8pRutM4sgVogZp27F9GXjhXi7qmacIenqvAWx5hRrgul6Gi4EP1FMN2wEupXGzHTegkQ+Ee/qZGpCVyWmsWYQ+kURglh2HDl2EnOqOY4p73EBIKgRzVoqCMKoc2zRJKr5i+lQ2wVBTrC855sUa64xLx2xm/Jb2wVxto0QK5qEDc31k1wLNbKIthNMa0STwBhWu4vvtSBg2jYM/5ekfde06jk7aIdoEkFI3xXm7L4Nv3XpdELghqSw8BvECXE+7uPtFhnhh3KvS4h+QnbQMoqCUJw0K69AUaYbnvhaLQiIHqi4zQE30ggzsUCbFMu/OoI0vkvjsbvgTiKBOSkj73cMjXfAQrCr1fO2kSOIRPcq0kOewYPfeFd1bKuJlhysVBNHXZhGdAtTDQD1j7ooHUxP937UmqMuN3/5gMiDMKoNXbD1jsXoiespF/Aty9kl3eVDwddBSeCug+oeH6DuIi/okkAZ+WukkZCOduyVaSMkvjIFXFRBkUV0GLSRPyQ+laJmZ8sKLxNd37cJAcodRr5CWcFn2p6oE2p2ViuP/MpAjygYfmWgx90LK6YfE3dE4XEZI318N5RfiILgM21XLB+6RJu6KIpY/zYLo1JEw3A20SaMzQ2uh0/AnNxxIXP+gfSo2cXlrkitc6hPBLPeV7gwyOOY64CxgrDchzyBOVx0wtwwp8zl6eXwn3hSM10q4A8DIy0JOIjdODdAzY5+5Lho0Ji/EVoVy2MTTL25C9BFFyI13gCkdBeHhtnmWgAAAABJRU5ErkJggg==" style="height: 31px; width: 31px;"></i></a></li>
+      </ul>
+    </div>
+   </footer>
+     
+    
+    
+</body>
+<script src="/Javascript/main.js"></script>
+</html>
